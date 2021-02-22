@@ -1,5 +1,3 @@
-# This image specifically for Databricks Runtime 7.x; please check there for reference https://docs.databricks.com/release-notes/runtime/releases.html#databricks-runtime-releases
-
 # Minimal Container
 
 This image is the smallest example of what is necessary to launch a cluster in Databricks.
