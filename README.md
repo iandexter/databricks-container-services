@@ -12,3 +12,4 @@ The images, which are spefically for [Databricks Runtime 7.x](https://docs.datab
 
 * [Minimal](ubuntu/minimal) - Contains the base image used for all the images here.
 * [Python](ubuntu/python) - Contains Python Conda environment, and can be used for Python notebooks.
+* [DBFS FUSE](ubuntu/dbfsfuse) - Shows how to mount [DBFS](https://docs.databricks.com/data/databricks-file-system.html) to the local filesystem as `/dbfs`.

@@ -1,4 +1,4 @@
-FROM iandexter/databricks:latest
+FROM iandexter/databricks:python
 
 RUN apt-get update \
   && apt-get install -y fuse \
