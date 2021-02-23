@@ -1,4 +1,4 @@
-FROM iandexter/databricks:ubuntu18.04 as builder
+FROM ubuntu:18.04 as builder
 
 RUN apt-get update && apt-get install --yes \
     wget \
@@ -14,7 +14,7 @@ RUN wget --quiet --output-document miniconda.sh https://repo.continuum.io/minico
     && rm miniconda.sh \
     && /databricks/conda/bin/conda install --name base conda=4.6.12
 
-FROM databricksruntime/minimal:latest
+FROM iandexter/databricks:minimal
 
 COPY --from=builder /databricks/conda /databricks/conda
 
