@@ -1,5 +1,7 @@
 # Databricks Container Services - Example Containers
 
+⚠️ **Unofficial**: This is for testing purposes only, and is not guaranteed to work.
+
 This repository provides Dockerfiles for use with Databricks Container Services (documentation for [Azure](https://docs.azuredatabricks.net/user-guide/clusters/custom-containers.html) and [AWS](https://docs.databricks.com/user-guide/clusters/custom-containers.html)). These Dockerfiles are meant as a reference and a starting point, enabling users to build their own custom images to suit thier specific needs.
 
 ## Images
